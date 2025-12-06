@@ -18,6 +18,3 @@ def generate_response(model: str, message: str, max_tokens: int, temperature: fl
     )
 
     return response
-
-model = create_model("gpt2")
-print(generate_response(model, "How are you?", max_tokens=40, temperature=0.5))
