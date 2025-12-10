@@ -1,1 +1,9 @@
-# GenAI-PyGame
+# Generative AI & PyGame
+Open-source Python3 package that helps to connect Generative AI to your PyGame project. 
+## How to install?
+Now actual version of this built is unavalable due to developing process.
+## Functions
+<ul>
+  <li><b>create_model(model_name: str)</b><p>Creating a model. WARNING: Your chosen model must fit your PC resources</p><p>List of models: unavalable</p></li>
+  <li><b>generate_response(model: str, message: str, max_tokens: int, temperature: float)</b><p>model: your generated model from function "create_model"</p><p>message: your message (promt) for model to analyze</p><p>max_tokens: maximum characters for response</p><p>temperature: level of artistics in answer</p></li>
+</ul>
