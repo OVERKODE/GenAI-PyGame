@@ -1,7 +1,7 @@
 # Generative AI & PyGame
 Open-source Python3 package that helps to connect Generative AI to your PyGame project. 
 ## How to install?
-Now actual version of this built is unavalable due to developing process.
+pip install genai-pygame
 ## Functions
 <ul>
   <li><h3><b>create_model(model_name: str)</b></h3><p>Creating a model. WARNING: Your chosen model must fit your PC resources</p><p>List of models: unavalable</p></li>
