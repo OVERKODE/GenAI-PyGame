@@ -1,7 +1,5 @@
 from transformers import pipeline
 
-pipe = pipeline()
-
 def create_model(model_name: str):
     return_model = pipeline(
         "text-generation",
@@ -10,11 +8,12 @@ def create_model(model_name: str):
 
     return return_model
 
-def generate_response(model: str, message: str, max_tokens: int, temperature: float):
+def generate_response(model, message: str, max_tokens: int, temperature: float):
     response = model(
         message,
         max_new_tokens=max_tokens,
-        temperature=temperature
+        temperature=temperature,
+        return_full_text=False
     )
 
-    return response
+    return response[0]["generated_text"]
