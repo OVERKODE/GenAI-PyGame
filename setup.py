@@ -5,7 +5,7 @@ setup(
     description='A helpful PyGame tool for intergrating Generative AI models into game projects.',
     author='Alex Khon',
     author_email='alexoverkode@hotmail.com',
-    version="0.1.8",
+    version="1.0.0",
     packages=find_packages(),
     install_requires=[
         'transformers'

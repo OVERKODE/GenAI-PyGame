@@ -1,6 +1,6 @@
 Metadata-Version: 2.4
 Name: genai_pygame
-Version: 0.1.8
+Version: 1.0.0
 Summary: A helpful PyGame tool for intergrating Generative AI models into game projects.
 Author: Alex Khon
 Author-email: alexoverkode@hotmail.com
